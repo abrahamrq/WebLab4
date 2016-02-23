@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Lab3 </title>
+    <link href="css/sweetalert.css" type="text/css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/galactic.css" type="text/css" rel="stylesheet"/>
+    <link href="css/bootstrap_override.css" type="text/css" rel="stylesheet"/>
+    <script src="js/sweetalert.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/galactic.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/registration.js" type="text/javascript"></script>
+
+  </head>
+  <body class="main-body">
+    <div class="dummy-div"></div>
+    <div class="main-container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div id="login-container">
+            <h2 class="heading">Join the Force</h2>
+            <form id="login-form">
+              <div class="form-group has-feedback">
+                <input type="text" id="username" placeholder="Username" class="form-control input-format"/>
+                <i class="glyphicon glyphicon-user form-control-feedback"></i>
+              </div>
+              <div class="form-group has-feedback">
+                <input type="email" id="email" placeholder="Email" class="form-control input-format"/>
+                <i class="glyphicon glyphicon-envelope form-control-feedback"></i>
+              </div>
+              <div class="form-group has-feedback">
+                <input type="password" id="password" placeholder="Password" class="form-control input-format"/>
+                <!-- <i class="glyphicon glyphicon-eye-close form-control-feedback"></i> -->
+              </div>
+              <div class="form-group has-feedback">
+                <input type="password" id="repeat-password" placeholder="Repeat password" class="form-control input-format"/>
+                <!-- <i class="glyphicon glyphicon-eye-close form-control-feedback"></i> -->
+              </div>
+              <div>
+                <input type="radio" name="side" value="Dark" checked="checked"> Join the dark side<br>
+                <input type="radio" name="side" value="Light"> Join the light side<br>
+              </div>
+              <div class="row login-actions">
+                <a href='login.html' class="btn btn-md btn-default pull-left"> Back </a>
+                <input class="pull-right btn btn-md btn-success" type="submit" value="Register">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

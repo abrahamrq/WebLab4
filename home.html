@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Lab3 </title>
+    <link href="css/sweetalert.css" type="text/css" rel="stylesheet"/>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/galactic.css" type="text/css" rel="stylesheet"/>
+    <link href="css/bootstrap_override.css" type="text/css" rel="stylesheet"/>
+    <script src="js/sweetalert.min.js" type="text/javascript"></script>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/galactic.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/post.js" type="text/javascript"></script>
+    <script src="js/moment.js" type="text/javascript"></script>
+    <script src="js/session.js" type="text/javascript"></script>
+    <script src="js/home.js" type="text/javascript"></script>
+
+  </head>
+  <body class="main-body">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="home.html" id="side-label"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a id="logout">Logout</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="main-container">
+      <div class="row">
+        <div class="col-lg-2 visible-lg">
+          <div id="home-sidebar-container">
+            <div id="my_display-image">
+              <a href="profile.html">
+                <img src="images/fett.jpg" class="img-responsive">
+              </a>
+            </div>
+            <div class="text-center">
+              <a href="profile.html" class="username-label">
+              </a>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="col-lg-10 col-xs-12">
+          <div id="home-container">
+            <h4 class="text-center"> Galactic News</h4>
+            <div class="poster row">
+              <form id="poster">
+                <div class="row">
+                  <div class="col-md-12">
+                    <textarea id="post-textarea" class="form-control" maxlength="150" name="post" placeholder="Lasers?! (Max. 150 characters)"></textarea>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-md-10 no-side-margin no-side-padding">
+                      <input type="text" placeholder="Death Star" id ="post-place" class="form-control">
+                    </div>
+                    <div class="col-md-2 no-side-margin no-side-padding">
+                      <input class="pull-right btn btn-block btn-default" type="submit" value="Post" id="post-submit">
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div id="posts">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

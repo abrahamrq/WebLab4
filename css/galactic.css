@@ -1,0 +1,211 @@
+html, body{
+  height: 100%;
+}
+
+.main-body{ 
+  /*background-image: url("../images/darthvader_repeat.png");*/
+	/*background-image: url("../images/storm_troopers_repeat.png");*/
+  /*background-image: url("../images/background_stars.jpg");*/
+  background-image: url("../images/background.jpg");
+}
+
+.main-container{
+  padding: 15px;
+  color: white;
+}
+
+#login-container{
+  background-color: white;
+  border: solid 2px rgb(67, 67, 67);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: rgb(67, 67, 67);
+}
+
+#login-container form .input-format{
+  border-radius: 0px;
+  margin: 5px 0px;
+  border: solid 0px white;
+  border-bottom: solid 1px rgba(204, 204, 204, 0.5);
+  box-shadow: 0px 0px 0px white;
+}
+
+.heading{
+  text-align: center;
+}
+
+.login-actions{
+  margin: 5px 0px;
+}
+
+#login-form{
+  margin: 5px 0px;
+}
+
+.dummy-div{
+  height: 20%;
+}
+
+#home-container{
+  background-color: white;
+  border: solid 2px rgb(67, 67, 67);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: rgb(67, 67, 67);
+}
+
+#home-sidebar-container{
+  background-color: white;
+  border: solid 2px rgb(67, 67, 67);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: rgb(67, 67, 67);
+}
+
+#profile-container{
+  background-color: white;
+  border: solid 2px rgb(67, 67, 67);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: rgb(67, 67, 67);
+}
+
+#posts-container{
+  background-color: white;
+  border: solid 2px rgb(67, 67, 67);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: rgb(67, 67, 67);
+}
+
+.post{
+  background-color: white;
+}
+
+#poster{
+  background-color: white;
+  padding: 0px 10px;
+}
+
+.post-owner{
+  font-weight: bold;
+}
+
+.post-timestamp{
+  font-style: italic;
+  color: rgb(133, 133, 133);
+}
+
+a.menu-link {
+  float: right;
+  display: block;
+  padding: 1em;
+}
+nav[role=navigation] {
+  clear: both;
+  -webkit-transition: all 0.3s ease-out;  
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.js nav[role=navigation] {
+  overflow: hidden;
+  max-height: 0;
+}
+nav[role=navigation].active {
+  max-height: 15em;
+}
+nav[role=navigation] ul {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #808080;
+}
+nav[role=navigation] li a {
+  display: block;
+  padding: 0.8em;
+  border-bottom: 1px solid #808080;
+}
+
+@media screen and (min-width: 48.25em) {
+  a.menu-link {
+     display: none;
+  }
+  .js nav[role=navigation] {
+    max-height: none;
+  }
+  nav[role=navigation] ul {
+    margin: 0 0 0 -0.25em;
+    border: 0;
+  }
+  
+  nav[role=navigation]  li {
+    display: inline-block;
+    margin: 0 0.25em;
+  }
+  nav[role=navigation] li a {
+    border: 0;
+  }
+}
+
+.pattern{
+  background-color: white;
+  border-bottom: solid 2px rgb(67, 67, 67);
+}
+
+.pattern a{
+  color: black;
+  text-decoration: none;
+}
+
+.your-name{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.profile-info{
+  padding: 10px 0px;
+}
+
+.logout-button{
+  float: right;
+}
+
+.no-side-margin{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.no-side-padding{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#post-textarea{
+  border-bottom: transparent solid 0px;
+  box-shadow: 0px 0px 0px #FFFFFF;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  resize: none;
+}
+
+#post-place{
+  border-top: rgba(204, 204, 204, 0.4) solid 1px;
+  box-shadow: 0px 0px 0px #FFFFFF;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-right: transparent solid 0px;
+}
+
+#post-submit{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
